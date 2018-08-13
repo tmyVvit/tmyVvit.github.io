@@ -78,6 +78,18 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
-  type: git
-  repo: https://github.com/tmyVvit/tmyVvit.github.io.git
-  branch: master
+  - 
+    type: leancloud_counter_security_sync
+  - 
+    type: git
+    repo: https://github.com/tmyVvit/tmyVvit.github.io.git
+    branch: master
+
+
+# leancloud security
+leancloud_counter_security:
+  enable_sync: true
+  app_id: iGFOuu5FQU71pRvw9iazu1v8-gzGzoHsz
+  app_key: c3xbxfns02UXDk6Sq0QJReoS
+  username: tmyvvit
+  password: ilovetmy
