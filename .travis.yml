@@ -10,6 +10,7 @@ script:
   - hexo g
 
 after_script:
+  - cp CNAME ./public/CNAME
   - cd ./public
   - git init
   - git config user.name "tmyVvit"
